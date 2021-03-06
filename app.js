@@ -1,14 +1,13 @@
-
 const express = require('express');
 const app = express();
 
 
 app.use(express.static('public'));
 
-app.get('/', (req, res )=>{
+app.get('/', (req, res) => {
 
     console.log(req.url)
     res.sendFile(__dirname + '/views/home.html');
-} );
+});
 
-app.listen(3000, ()=> console.log('server lingado'));
+app.listen(3000, () => console.log('server lingado'));
