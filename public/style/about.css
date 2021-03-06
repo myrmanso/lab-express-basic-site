@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  height: 5vh;
+  background-color: #485b30;
+  padding: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 20px;
+  text-align: right;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+article{
+  width: 50%;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+}
