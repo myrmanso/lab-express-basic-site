@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  color: #fff;
+}
+
+header {
+  height: 5vh;
+  background-color: #485b30;
+  padding: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 20px;
+  text-align: right;
+}
+
+main {
+  background-image: url('../img/michelle-obama.jpg');
+  height: 100vh;
+  margin: 0;
+  width: auto;
+  padding: 90px;
+}
+
+h1 {
+  font-size: 56px;
+}
